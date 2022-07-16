@@ -5,7 +5,6 @@ import {
   NumberInputStepper,
   NumberIncrementStepper,
   NumberDecrementStepper,
-  background,
 } from "@chakra-ui/react";
 
 export class SearchInput extends Component {
