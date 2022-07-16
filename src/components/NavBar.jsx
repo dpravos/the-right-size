@@ -1,5 +1,5 @@
-import "./App.css";
-import { ReactComponent as Logo } from './logo.svg';
+import "../App.css";
+import { ReactComponent as Logo } from '../logo.svg';
 import {
   Container,
   Flex,
@@ -9,6 +9,7 @@ import {
   Image,
   Box,
 } from "@chakra-ui/react";
+import SearchInput from "./SearchInput";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           </Flex>
           <Flex>
             <Center p="2">
-              <Input placeholder="Basic usage"></Input>
+              <SearchInput></SearchInput>
             </Center>
           </Flex>
         </Flex>

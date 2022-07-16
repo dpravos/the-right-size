@@ -1,10 +1,10 @@
 import "./App.css";
-import SearchInput from "./components/SearchInput";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <SearchInput></SearchInput>
+      <NavBar/>
     </div>
   );
 }
