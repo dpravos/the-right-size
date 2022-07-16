@@ -10,6 +10,6 @@ export const response = {
                 width: 80,
                 lenght: 120,
             }
-        }
+        },
     ]
 }
